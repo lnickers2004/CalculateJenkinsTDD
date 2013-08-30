@@ -9,6 +9,8 @@ namespace CalculateJenkins.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            //Comment added 
+            Assert.IsTrue(true);
         }
     }
 }
