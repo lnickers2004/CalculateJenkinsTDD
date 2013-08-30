@@ -9,6 +9,7 @@ namespace CalculateJenkins.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.AreNotEqual(1,2);
         }
     }
 }
