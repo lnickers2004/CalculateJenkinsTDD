@@ -14,6 +14,10 @@ namespace CalculateJenkins.Tests
             string obj1 = "Yo!";
             object obj2 = "Man";
             Assert.AreNotSame(obj1, actual: obj2);
+            
+            //adding this in trying something branch
+            Assert.IsTrue(true);
+            //end trying something branch
         }
     }
 }
