@@ -11,6 +11,9 @@ namespace CalculateJenkins.Tests
         {
             //Comment added 
             Assert.IsTrue(true);
+            string obj1 = "Yo!";
+            object obj2 = "Man";
+            Assert.AreNotSame(obj1, actual: obj2);
         }
     }
 }
