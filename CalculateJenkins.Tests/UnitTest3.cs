@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CalculateJenkins.Tests
 {
     [TestClass]
+    [Ignore]
     public class UnitTest3
     {
         [TestMethod]
